@@ -19,12 +19,17 @@
         a {
             color: #69DEDA;
             text-decoration: none;
-            margin: 15px 5px; /* 两个链接分别有 15px 的上下 margin，总共增加 30px 分隔 */
+            margin: 50px 5px; /* 两个链接分别有 50px 的上下 margin，总共增加 100px 分隔 */
         }
     </style>
+    <script>
+        function downloadPrompt() {
+            alert('开始下载中...');
+        }
+    </script>
 </head>
 <body>
-    <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/Gsl201600/IPA_OTA/main/DownloadPlist.plist">点击安装MJSDK</a>
-    <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/Gsl201600/IPA_OTA/main/DownloadPlist2.plist">点击安装MJUnitySDK</a>
+    <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/Gsl201600/IPA_OTA/main/DownloadPlist.plist" onclick="downloadPrompt()">点击安装MJSDK</a>
+    <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/Gsl201600/IPA_OTA/main/DownloadPlist2.plist" onclick="downloadPrompt()">点击安装MJUnitySDK</a>
 </body>
 </html>
