@@ -17,13 +17,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.manjuu.sdk.mainland.iosdemo</string>
+				<string>com.manjuu</string>
 				<key>bundle-version</key>
 				<string>0.1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>MJSDKDemo</string>
+				<string>特色t</string>
 			</dict>
 		</dict>
 	</array>
