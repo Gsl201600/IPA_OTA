@@ -16,13 +16,20 @@
             align-items: center;
             text-align: center;
         }
+        .top-notice {
+            background-color: yellow;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+        }
         a {
-            display: inline-block; /* 使链接像块元素一样，可以应用padding等属性 */
-            background-color: red; /* 背景颜色 */
-            color: white; /* 文字颜色 */
-            text-decoration: none; /* 去掉下划线 */
-            padding: 10px 20px; /* 内边距：上下10px，左右20px */
-            border-radius: 10px; /* 圆角边框 */
+            display: inline-block;
+            background-color: red;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 10px;
             margin: 15px 5px;
         }
         .qr-code {
@@ -36,6 +43,9 @@
     </style>
 </head>
 <body>
+    <div class="top-notice">
+        使用扫码安装，请用苹果原生相机扫码识别
+    </div>
     <div>
         <a href="itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/Gsl201600/IPA_OTA/main/DownloadPlist.plist">点击安装MJSDK</a>
         <div class="qr-label">扫描二维码安装</div>
